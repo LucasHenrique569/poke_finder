@@ -1,13 +1,19 @@
 
-import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import { Home } from './pages/Home'
+import { PokeDetails } from './pages/PokeDetails'
 
 function App() {
 
   return (
     <>
-      <Home/>      
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/pokemon/:name" element={<PokeDetails />} />
+        </Routes>
+      </BrowserRouter>  
     </>
   )
 }
