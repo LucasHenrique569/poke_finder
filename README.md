@@ -67,6 +67,4 @@ http://localhost:numero_da_porta
 
 - [PokeAPI](https://pokeapi.co/) — API pública e gratuita com dados dos Pokémons.
 
----
-
-Feito com por [Lucas Henrique](https://github.com/LucasHenrique569)
+Feito por [Lucas Henrique](https://github.com/LucasHenrique569)
