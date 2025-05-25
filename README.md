@@ -36,7 +36,7 @@ git clone https://github.com/LucasHenrique569/poke_finder.git
 
 2. **Acesse a pasta do projeto:**
 
-cd pokedex-app
+cd poke_finder
 
 3. **Instale as dependências:**
 
