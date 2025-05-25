@@ -1,54 +1,72 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Pokédex App
 
-Currently, two official plugins are available:
+Este é um projeto desenvolvido em **React JS** com **TypeScript** e estilizado utilizando **Styled-Components**. O aplicativo consome dados da API pública [PokeAPI](https://pokeapi.co/) e permite que o usuário busque informações sobre um Pokémon pelo nome.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Funcionalidades
 
-## Expanding the ESLint configuration
+- Tela de busca onde o usuário digita o nome de um Pokémon.
+- Após a busca, uma segunda página exibe as informações detalhadas:
+  - Nome
+  - ID
+  - Imagem do Pokémon
+  - Tipos do Pokémon
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Tecnologias Utilizadas
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- [React JS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled-Components](https://styled-components.com/)
+- [PokeAPI](https://pokeapi.co/)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🔧 Como Executar o Projeto
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### ✅ Pré-requisitos
+
+- Node.js instalado.
+- Gerenciador de pacotes **npm** ou **yarn**.
+
+### 🚀 Passos para rodar localmente:
+
+1. **Clone o repositório:**
+
+git clone https://github.com/LucasHenrique569/poke_finder.git
+
+
+2. **Acesse a pasta do projeto:**
+
+cd pokedex-app
+
+3. **Instale as dependências:**
+
+Se estiver usando npm:
+
+npm install
+
+Ou usando yarn:
+
+yarn
+
+4. **Execute o projeto:**
+
+Com npm:
+
+npm run dev
+
+Com yarn:
+
+yarn dev
+
+5. **Acesse no navegador:**
+
+http://localhost:numero_da_porta
+
+
+## 🌐 API Utilizada
+
+- [PokeAPI](https://pokeapi.co/) — API pública e gratuita com dados dos Pokémons.
+
+---
+
+Feito com por [Lucas Henrique](https://github.com/LucasHenrique569)

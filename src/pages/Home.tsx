@@ -17,7 +17,7 @@ export function Home() {
     return (
         <Container>
             <Title>Buscador de Pokémons</Title>
-            <Description>Olá, bem vindo ao buscador de pokémons, digite o nome do pokemon
+            <Description>Olá, bem vindo ao buscador de pokémons, digite o nome do pokémon
                 no campo abaixo para obter algumas informações do mesmo, como
                 nome, id, imagem e tipo.
             </Description>
